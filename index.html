@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones Font Awesome para as redes sociais -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navegação / Menu -->
+    <nav class="navbar">
+        <div class="logo">&lt;DevPortfólio /&gt;</div>
+        <button class="menu-hamburger" id="btn-hamburger" aria-label="Abrir Menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><button id="theme-toggle" class="btn-theme"><i class="fa-solid fa-moon"></i></button></li>
+        </ul>
+    </nav>
+
+    <!-- Cabeçalho (Hero Section) -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="Foto.jpg" alt="Foto de perfil de Seu Nome" class="profile-img">
+            <h1>Julia Pereira</h1>
+            <h2>Desenvolvedor de Mídias Digitais em Formação</h2>
+        </div>
+    </header>
+
+    <!-- Sobre mim & Habilidades -->
+    <section id="sobre" class="section">
+        <h2>Sobre Mim</h2>
+        <p>
+            Oii! Sou estudante de tecnologia, crio experiências digitais e aprendo novas ferramentas. 
+            Atualmente estou estudando desenvolvimento front-end, mas ando em constantes evoluções.
+        </p>
+        
+        <h3>Habilidades</h3>
+        <div class="badges">
+            <span class="badge"><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span class="badge"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span class="badge"><i class="fa-brands fa-square-js"></i> JavaScript</span>
+            <span class="badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+        </div>
+    </section>
+
+    <!-- Projetos em Destaque -->
+    <section id="projetos" class="section">
+        <h2>Projetos em Destaque</h2>
+        <div class="projects-container">
+            
+            <!-- Card Projeto 1 -->
+            <div class="project-card">
+                <h3>To-Do List</h3>
+                <p>Aplicação interativa para gerenciamento de tarefas diárias com armazenamento local.</p>
+                <div class="card-links">
+                    <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                </div>
+            </div>
+
+            <!-- Card Projeto 2 -->
+            <div class="project-card">
+                <h3>Lista de Compras</h3>
+                <p>Interface simples para adição e controle de itens de supermercado.</p>
+                <div class="card-links">
+                    <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contato & Redes Sociais -->
+    <footer id="contato" class="footer">
+        <h2>Vamos conversar?</h2>
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+
+        </div>
+        <p class="copyright">&copy; 2026 - Criado na atividade prática de Portfólio Web.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
